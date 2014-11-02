@@ -1,0 +1,26 @@
+#grid {
+	position:relative;
+	width: 400px;
+	height: 600px;
+	/*margin-top: -240px;
+	margin-left: -240px;
+	top: 50%;
+	left: 50%;
+	*/border-radius: 10px;
+/*	background-color: grey;*/
+	padding: 5px;
+}
+
+#grid *{
+	box-sizing: border-box;
+	
+}
+
+.sameDiv {
+	
+	padding: 0;
+	float: left;
+	background-color: white;
+/*	border: 5px solid grey;
+border-radius: 10px;*/
+}
