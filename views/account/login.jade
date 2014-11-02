@@ -13,7 +13,7 @@ html
     link(rel='stylesheet', href='css/style-desktop.css')
     link(rel='stylesheet', href='css/style-noscript.css')
     link(rel='stylesheet', href='css/bootstrap/bootstrap.min.css')
-    link(rel='stylesheet', href='css/lib/bootstrap-social.less')
+    link(rel='stylesheet/less', type='text/css', href='css/lib/bootstrap-social.less')
     link(rel='stylesheet', href='css/style.css')
   body
     #wrapper
@@ -22,11 +22,8 @@ html
         .panel.panel-danger
           article
             .panel-title.text-center
-              h2 meet up with
+              h2 meet up w me?
             .panel-body
-              form(method='POST')
-                input(type='hidden', name='_csrf', value=_csrf)
-                .col-sm-8.col-sm-offset-2
-                  a.btn.btn-block(href='/auth/google')
-                    i.fa.fa-google-plus
-                    | Sign in with Google
+              a.btn.btn-block.btn-google-plus.btn-social(href='/auth/google')
+                i.fa.fa-google-plus
+                | Sign in with Google
