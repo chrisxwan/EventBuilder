@@ -1,3 +1,6 @@
+// require('coffee-script');
+// var gapi = require('lib/gapi.coffee');
+
 $(document).ready(function() {
 
     var apiKey = 'AIzaSyAdjHPT5Pb7Nu56WJ_nlrMGOAgUAtKjiPM';

@@ -14,7 +14,7 @@ exports.getNewEvent = function(req, res) {
 		title: 'New Event'
 	});
 };
-
+// eyy ese I heard you like making plans ğue?
 // exports.postFreeBusy = function(req, res) {
 // 	var userCalID = req.user.email
 // 	var check = {
