@@ -1,6 +1,7 @@
 doctype html
 html
   head
+    link(rel="stylesheet" type="text/css" href="css/lib/danielColorGrid.css")
     title Event Builder Dashboard
     meta(http-equiv='content-type', content='text/html; charset=utf-8')
     meta(name='description', content='')
@@ -77,6 +78,15 @@ html
                             span Make an Event
           //- #eventLeft
             //- img(src='http://s29.postimg.org/5bloio61z/Daniel_Pic.png')
+          #eventLeft
+            .header 
+              p(style='margin-left:85px') sync best meeting times
+            #grid
+              .day Sunday
+              .day Monday
+              .day Tuesday
+              
+        // Contact 
         article#contact.panel
           //- header
           //-   h2 Contact Me
@@ -97,7 +107,7 @@ html
           //-       .12u
           //-         input(type='submit', value='Send Message')
           #eventLeft
-            img(src='http://s29.postimg.org/5bloio61z/Daniel_Pic.png')
+            
           #eventRight
             h4.
               'third board meeting' should be scheduled in one of these possible time slots
@@ -107,3 +117,5 @@ html
           li
             | Design:
             a(href='http://html5up.net') HTML5 UP
+    script(src="js/jquery.color-2.1.2.js")
+    script(src='js/danielColorGrid.js')

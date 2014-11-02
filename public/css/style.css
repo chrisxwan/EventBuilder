@@ -516,6 +516,15 @@
 		float:left;
 	}
 
+/* days by daniel */
+
+	.day{
+		float: left;
+		color: black;
+		font-family: 'source sans pro', sans-serif;
+		text-align: center;
+		font-size: 24px;
+	}
 /* slider by daniel, based on http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.html */
 
 input[type=range] {

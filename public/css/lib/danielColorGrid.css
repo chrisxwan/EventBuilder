@@ -7,13 +7,32 @@
 	top: 50%;
 	left: 50%;
 	*/border-radius: 10px;
-/*	background-color: grey;*/
+	/*background-color: grey;*/
 	padding: 5px;
 }
 
+#x3x1,
+#x4x1,
+#x8x1,
+#x10x1, 
+#x11x1,
+#x12x1,
+#x3x2,
+#x5x2,
+#x7x2,
+#x8x2,
+#x9x2,
+#x10x2,
+#x1x0,
+#x13x0,
+#x14x0,
+#x15x0,
+#x5x0 {
+	background-color: #A8FFA8;
+}
 #grid *{
 	box-sizing: border-box;
-	
+
 }
 
 .sameDiv {
@@ -23,4 +42,10 @@
 	background-color: white;
 /*	border: 5px solid grey;
 border-radius: 10px;*/
+}
+
+p {
+	margin-left:85px,
+	font-family: 'source sans pro',
+	font-size:20px,
 }
